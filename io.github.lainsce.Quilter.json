@@ -86,8 +86,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/quilter/archive/3.1.0.zip",
-                    "sha256" : "6a88307d887fea4199965ad4731dfa38c2da9d646fcc262e4cbcb8926bce2b75"
+                    "url" : "https://github.com/lainsce/quilter/archive/3.1.1.zip",
+                    "sha256" : "b369a7fe481c4e64afb3471e49ebb946e88d89902de7c84514facebfd0a958ed"
                 }
             ]
         }
