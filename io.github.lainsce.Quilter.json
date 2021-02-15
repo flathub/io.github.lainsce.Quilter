@@ -11,7 +11,8 @@
         "--socket=wayland",
         "--socket=fallback-x11",
         "--share=network",
-        "--share=ipc"
+        "--share=ipc",
+        "--device=dri"
     ],
     "cleanup" : [
         "/cache",
@@ -84,8 +85,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/quilter/archive/3.3.2.zip",
-                    "sha256" : "05f9cf955d84277ba814b097b4ed2eef4839b4e2c61daf6530bfae97bf71cdff"
+                    "url" : "https://github.com/lainsce/quilter/archive/3.3.3.zip",
+                    "sha256" : "5b88360daf410950385b1d4e0e8c26f55efae2209f387fe0bfcfccfcd0656371"
                 }
             ]
         }
