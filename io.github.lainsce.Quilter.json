@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.Quilter",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
+    "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Quilter",
     "rename-icon" : "io.github.lainsce.Quilter",
@@ -59,22 +59,6 @@
                 "url": "http://www.pell.portland.or.us/~orc/Code/discount/discount-2.2.6.tar.bz2",
                 "sha256": "ae68a4832ff8e620286304ec525c1fe8957be4d8f1e774588eb03d1c3deb74a7"
             }]
-        },
-        {
-            "name" : "libhandy",
-            "buildsystem" : "meson",
-            "config-opts" : [
-                "-Dexamples=false",
-                "-Dglade_catalog=disabled",
-                "-Dtests=false"
-            ],
-            "sources" : [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/libhandy",
-                    "branch": "master"
-                }
-            ]
         },
         {
             "name" : "quilter",
