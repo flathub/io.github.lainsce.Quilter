@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.Quilter",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "43",
+    "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Quilter",
     "rename-icon" : "io.github.lainsce.Quilter",
