@@ -72,7 +72,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/libhandy",
-                    "branch": "master"
+                    "commit" : "f39517acaaa295ede4e4b89bf0e67bc714c42cc9"
                 }
             ]
         },
