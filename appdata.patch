@@ -1,0 +1,10 @@
+--- ./data/io.github.lainsce.Quilter.appdata.xml.in	2021-02-17 06:20:31.000000000 +0530
++++ ./data/io.github.lainsce.Quilter.appdata.xml.in	2024-12-09 20:31:39.004943402 +0530
+@@ -23,6 +23,7 @@
+         <binary>io.github.lainsce.Quilter</binary>
+     </provides>
+     <developer_name>Lains</developer_name>
++    <launchable type="desktop-id">io.github.lainsce.Quilter.desktop</launchable>
+     <url type="homepage">https://github.com/lainsce/quilter/</url>
+     <url type="bugtracker">https://github.com/lainsce/quilter/issues</url>
+     <url type="donation">https://liberapay.com/Lains/</url>
