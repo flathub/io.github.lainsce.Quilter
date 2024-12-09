@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.Quilter",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Quilter",
     "rename-icon" : "io.github.lainsce.Quilter",
@@ -39,8 +39,8 @@
                     "name": "enchant",
                     "sources": [{
                         "type": "archive",
-                        "url": "https://github.com/AbiWord/enchant/releases/download/v2.2.11/enchant-2.2.11.tar.gz",
-                        "sha256": "a29c5777c4e45fcac2595c15c49d6d2aa434fa5e7c993dff3f9f367b65fe472a"
+                        "url": "https://github.com/rrthomas/enchant/releases/download/v2.8.0/enchant-2.8.0.tar.gz",
+                        "sha256": "c57add422237b8a7eed116a9a88d8be4f7b9281778fa36f03e1f2c051ecb0372"
                     }]
                 },
                 "shared-modules/intltool/intltool-0.51.json"
@@ -49,6 +49,9 @@
         {
             "name": "discount",
             "buildsystem": "simple",
+            "build-options": {
+                "cflags": "-Wno-incompatible-pointer-types"
+            },
             "build-commands": [
                 "./configure.sh --prefix=/app --enable-all-features --github-checkbox --with-fenced-code --shared",
                 "sed -e 's|/sbin/ldconfig|/sbin/ldconfig -n|' -i librarian.sh",
@@ -56,7 +59,7 @@
             ],
             "sources": [{
                 "type": "archive",
-                "url": "http://www.pell.portland.or.us/~orc/Code/discount/discount-2.2.6.tar.bz2",
+                "url": "https://www.pell.portland.or.us/~orc/Code/discount/discount-2.2.6.tar.bz2",
                 "sha256": "ae68a4832ff8e620286304ec525c1fe8957be4d8f1e774588eb03d1c3deb74a7"
             }]
         },
